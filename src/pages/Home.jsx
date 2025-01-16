@@ -6,7 +6,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { BsArrowUpRight } from "react-icons/bs";
 import { PiDownloadSimple } from "react-icons/pi";
-import { team } from '../constants';
+import { head } from '../constants';
+import FramerMotionText from '../components/FramerMotionText';
 
 
 const Home = () => {
@@ -16,22 +17,18 @@ const Home = () => {
             {/* <img src={Hero} className="bg-cover bg-center relative w-full h-full" /> */}
             <div className="absolute w-full z-50 bg-opacity-50"></div>
             <div className="absolute w-full max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 lg:w-[60%] px-4">
-                <div className="text-4xl lg:text-5xl flex flex-col lg:gap-2">
-                    <p>Web Development</p>
-                    <p>App Development</p>
-                    <p>Marketing</p>
-                </div>
+                <FramerMotionText />
                 <p className="text-sm md:text-lg lg:text-xl">
                     To create a world of understanding technology, build businesses with modern and advanced tech, and improve the efficiency of work done.
                 </p>
                 <div className="flex items-center gap-6">
-                    <div className="flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple rounded-3xl hover:scale-110 duration-500 ease-linear">
+                    <div className="flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all">
                         <Link to="/contact" className="py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2">
                             Contact Us
                             <BsArrowUpRight />
                         </Link>
                     </div>
-                    <div className="flex text-purple lg:text-xl justify-center items-center rounded-3xl border border-purple hover:scale-110 duration-500 ease-linear">
+                    <div className="flex text-purple lg:text-xl justify-center items-center rounded-3xl border border-purple hover:scale-105 duration-500 ease-linear">
                         <Link to="/contact" className="py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2">
                             Requirement
                             <PiDownloadSimple />
@@ -43,7 +40,7 @@ const Home = () => {
         <div className="py-16">
             <div className="flex flex-col items-center gap-3">
                 <h1 className="text-3xl lg:text-4xl">What We Do</h1>
-                <p className="px-4 max-md:text-sm lg:px-72 text-center">To create a world of understanding technology, build businesses with modern and advanced tech and improve the efficiency of work done.</p>
+                <p className="px-4 max-md:text-sm lg:px-72 text-center">We are dynamic tech start-up focused on turning ideas into ground-breaking solutions. By leveraging advance technology and innovative software development, we design, create products an dservices that solve an dadrress real world challenges, empowr businesses, fuel growth and derive results.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4 lg:gap-10 py-16 lg:px-24 px-4">
                 <div className="flex flex-col gap-2 items-center">
@@ -74,16 +71,16 @@ const Home = () => {
                 <h1 className="text-3xl lg:text-4xl">Meet Our Team</h1>
                 <p className="lg:px-72 max-md:text-sm text-center">To create a world of understanding technology, build businesses with modern and advanced tech and improve the efficiency of work done.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {team.map((item, id) => {
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {head.map((item, id) => {
                     return(
-                        <div key={id} className="flex flex-col items-center gap-3 bg-white rounded-2xl py-12 px-2">
-                            <img src={item.image} alt="" className="w-32"/>
-                            <div className="flex flex-col gap-1">
+                        <div key={id} className="flex flex-col items-center gap-3 bg-white rounded-2xl py-6 px-2 hover:scale-105 duration-300 ease-linear cursor-pointer">
+                            <img src={item.image} alt="" className="w-[250px] h-[300px] rounded-full"/>
+                            <div className="flex flex-col gap-1 text-center">
                                 <h1 className="text-xl font-semibold">{item.name}</h1>
                                 <p className="text-sm font-thin">{item.role}</p>
                             </div>
-                            <p className="text-lg lg:text-xl text-center">{item.message}</p>
+                            <p className="text-sm text-center">{item.testimonial}</p>
                             <div>
                                 Testimonials
                             </div>

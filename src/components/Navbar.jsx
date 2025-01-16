@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
                 <ul className="hidden lg:flex ml-14 space-x-12 font-medium text-lg">
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/">Home</Link></li>
-                    <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/">About Us</Link></li>
+                    <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/about">About Us</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/pricing">Pricing</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/service">Service</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/work">Our Works</Link></li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div className="fixed right-0 z-20 w-full p-12 flex flex-col justify-center items-center lg:hidden bg-purple text-white bg-opacity-70">
                     <ul className='font-semibold text-lg'>
                         <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/">Home</Link></li> <hr className='w-60'/>
-                        <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/">About Us</Link></li> <hr className='w-60'/>
+                        <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/about">About Us</Link></li> <hr className='w-60'/>
                         <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/pricing">Pricing</Link></li> <hr className='w-60'/>
                         <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/service">Services</Link></li> <hr className='w-60'/>
                         <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in py-3 text-center'><Link to="/work">Our Work</Link></li> <hr className='w-60'/>
