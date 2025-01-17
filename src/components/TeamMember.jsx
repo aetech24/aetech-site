@@ -23,8 +23,8 @@ const TeamMember = ({ member, onClose }) => {
             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start border-b pb-8">
               <div className="w-full md:w-1/3">
                 <img 
-                  src={member.image} 
-                  alt={member.name} 
+                  src={member?.image} 
+                  alt={member?.name} 
                   className="w-full h-[300px] object-cover rounded-lg shadow-lg"
                 />
               </div>
@@ -57,7 +57,7 @@ const TeamMember = ({ member, onClose }) => {
               <div>
                 <h3 className="text-xl font-semibold mb-3">Expertise</h3>
                 <div className="flex flex-wrap gap-2">
-                  {member.expertise.map((skill, index) => (
+                  {member?.expertise?.map((skill, index) => (
                     <span key={index} className="bg-purple bg-opacity-10 text-purple px-3 py-1 rounded-full text-sm">
                       {skill}
                     </span>
@@ -69,7 +69,7 @@ const TeamMember = ({ member, onClose }) => {
               <div>
                 <h3 className="text-xl font-semibold mb-3">Experience</h3>
                 <div className="space-y-4">
-                  {member.experience.map((exp, index) => (
+                  {member?.experience?.map((exp, index) => (
                     <div key={index} className="border-l-2 border-purple pl-4">
                       <h4 className="font-semibold">{exp.position}</h4>
                       <p className="text-purple">{exp.company}</p>
@@ -94,7 +94,7 @@ const TeamMember = ({ member, onClose }) => {
               <div className="pb-4">
                 <h3 className="text-xl font-semibold mb-3">Certifications</h3>
                 <ul className="list-disc list-inside text-gray-600">
-                  {member.certifications.map((cert, index) => (
+                  {member?.certifications?.map((cert, index) => (
                     <li key={index}>{cert}</li>
                   ))}
                 </ul>
