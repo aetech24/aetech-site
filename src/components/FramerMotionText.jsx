@@ -15,7 +15,7 @@ const FramerMotionText = () => {
 
   return (
     <div className="flex items-center">
-      <div className="text-4xl lg:text-6xl font-extrabold text-center">
+      <div className="text-4xl lg:text-5xl font-extrabold">
         <AnimatePresence mode="wait">
           <motion.span
             key={textArray[index]}
