@@ -353,14 +353,17 @@ export const head =[
 
 export const services = [
     {title: "Software Development", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
-    {title: "Web Development", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
+    {title: "Web Development", skills: ["Developing dynamic and interactive web application.", "Implementing features like e-commerce, content, management systems or SASS platforms.","Developing server-side logic, APIs and Databases.", "Implementing functionalities like authentication, data processing and business logic."]},
     {title: "App Development", skills: ["Android", "IOS", "Cross Platform"]},
-    {title: "Software Maintenance and Upgrade", skills: ["Android", "IOS", "Cross Platform"]},
+    {title: "Product Design", skills: ["Customer made design."]},
+    {title: "Software Maintenance and Upgrade", skills: ["Providing ongoing support and updates to ensure software functionality.", "Implementing features enhancements and security patterns.", "Monitoring & resolving post-deployment issues."]},
     {title: "Custom Software Solutions", skills: ["Android", "IOS", "Cross Platform"]},
-    {title: "CyberSecurity Implementation", skills: ["Android", "IOS", "Cross Platform"]},
-    {title: "Product Design", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
-    {title: "Marketting", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
-    {title: "Branding", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
+    {title: "CyberSecurity Implementation", skills: ["Ensuring software security through encryption, authentication and vulnerability testing.", "Protecting applications against cyber threats."]},
+    {title: "Database Management", skills: ["Designing, creating and maintaining database.", "Ensuring data security, scalability and performance.", "Using relational (eg. MySQL, PostgreSQL, MongoDB, Firebase database."]},
+    {title: "Integration with third-party Systems", skills: ["Connecting software with APIs, tools, and services like Payment gateways, CRMs and ERDs", "Ensuring seamless interoperability between systems."]},
+    {title: "Marketting", skills: ["Social Media Marketting", "Digital Marketting"]},
+    {title: "Branding", skills: ["Brand Identity Design"]},
+    {title: "Cyber Education", skills: ["Cyber Security Training"]},
 ]
 
 export const work = [

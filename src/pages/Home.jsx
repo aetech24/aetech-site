@@ -40,7 +40,7 @@ const Home = () => {
         <div className="py-16">
             <div className="flex flex-col items-center gap-3">
                 <h1 className="text-3xl lg:text-4xl">What We Do</h1>
-                <p className="px-4 max-md:text-sm lg:px-72 text-center">We are dynamic tech start-up focused on turning ideas into ground-breaking solutions. By leveraging advance technology and innovative software development, we design, create products an dservices that solve an dadrress real world challenges, empowr businesses, fuel growth and derive results.</p>
+                <p className="px-4 max-md:text-sm lg:px-60 text-center">We are dynamic tech start-up focused on turning ideas into ground-breaking solutions. By leveraging advance technology and innovative software development, we design, create products and services that solve an address real world challenges, empower businesses, fuel growth and derive results.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4 lg:gap-10 py-16 lg:px-24 px-4">
                 <div className="flex flex-col gap-2 items-center">
@@ -51,8 +51,7 @@ const Home = () => {
                 <div className="flex flex-col gap-2 items-center">
                     <div className="p-4 text-3xl text-white bg-gradient-to-b from-pink to-purple rounded-full"><LuGraduationCap /></div>
                     <h1 className="font-semibold lg:text-xl">Education</h1>
-                    <p className="text-center max-md:text-sm">Training a generation of tech nerds, bringing out the pontential of our 
-                    generation.</p>
+                    <p className="text-center max-md:text-sm">Training a generation of tech nerds, bringing out the pontential of our generation.</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                     <div className="p-4 text-3xl text-white bg-gradient-to-b from-pink to-purple rounded-full"><IoBriefcaseOutline/></div>

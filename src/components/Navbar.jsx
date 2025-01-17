@@ -27,7 +27,7 @@ const Navbar = () => {
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/service">Service</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/work">Our Works</Link></li>
                 </ul>
-                <div onClick={toggleNavbar} className="hidden lg:flex text-white text-xl justify-center items-center bg-gradient-to-r from-pink to-purple rounded-3xl hover:scale-110 duration-500 ease-linear">
+                <div onClick={toggleNavbar} className="hidden lg:flex text-white text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-110 duration-500 ease-linear">
                     <Link to="/contact" className='py-2 px-4 flex items-center gap-2'>
                     Contact Us
                     <BsArrowUpRight />
