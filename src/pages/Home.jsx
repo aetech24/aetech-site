@@ -3,10 +3,15 @@ import Hero from "../assets/hero.png";
 import { Link } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 import { PiDownloadSimple } from "react-icons/pi";
-import { HiOutlineCode, HiOutlineAcademicCap, HiOutlineBriefcase } from "react-icons/hi";
+import {
+  HiOutlineCode,
+  HiOutlineAcademicCap,
+  HiOutlineBriefcase,
+} from "react-icons/hi";
 import { head } from "../constants";
 import FramerMotionText from "../components/FramerMotionText";
 import AnimatedImages from "../components/AnimatedImages";
+import TechStackSlider from "../components/TechStackSlider";
 
 const Home = () => {
   return (
@@ -16,8 +21,9 @@ const Home = () => {
           <div className="w-full lg:w-1/2 max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 px-4">
             <FramerMotionText />
             <p className="text-sm md:text-lg lg:text-xl">
-              To create a world of understanding technology, build businesses with
-              modern and advanced tech, and improve the efficiency of work done.
+              To create a world of understanding technology, build businesses
+              with modern and advanced tech, and improve the efficiency of work
+              done.
             </p>
             <div className="flex items-center gap-6">
               <div className="flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all">
@@ -46,35 +52,63 @@ const Home = () => {
         </div>
       </div>
       <div className="py-16">
-            <div className="flex flex-col items-center gap-3">
-                <h1 className="text-3xl lg:text-4xl">What We Do</h1>
-                <p className="px-4 max-md:text-sm lg:px-60 text-center">We are dynamic tech start-up focused on turning ideas into ground-breaking solutions. By leveraging advance technology and innovative software development, we design, create products and services that solve an address real world challenges, empower businesses, fuel growth and derive results.</p>
+        <div className="flex flex-col items-center gap-3">
+          <h1 className="text-3xl lg:text-4xl">What We Do</h1>
+          <p className="px-4 max-md:text-sm lg:px-60 text-center">
+            We are dynamic tech start-up focused on turning ideas into
+            ground-breaking solutions. By leveraging advance technology and
+            innovative software development, we design, create products and
+            services that solve an address real world challenges, empower
+            businesses, fuel growth and derive results.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-start gap-4 lg:gap-10 py-16 lg:px-24 px-4">
+          <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px]">
+            <div className="p-4 text-3xl text-[#580491] rounded-full">
+              <HiOutlineCode />
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-start gap-4 lg:gap-10 py-16 lg:px-24 px-4">
-                <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px]">
-                    <div className="p-4 text-3xl text-[#580491] rounded-full"><HiOutlineCode />
-                    </div>
-                    <h1 className="font-semibold lg:text-xl text-start">Languages</h1>
-                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">We use up-to-date Programming languages and libraries to implement our works.</p>
-                </div>
-                <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
-                    <div className="p-4 text-3xl text-[#580491] rounded-full"><HiOutlineAcademicCap /></div>
-                    <h1 className="font-semibold lg:text-xl text-start">Education</h1>
-                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">Training a generation of tech nerds, bringing out the potential of our generation.</p>
-                </div>
-                <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
-                    <div className="p-4 text-3xl text-[#580491] rounded-full ">
-                    <HiOutlineBriefcase className=''/></div>
-                    <h1 className="font-semibold lg:text-xl text-start ">Projects</h1>
-                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">We accept and take every challenge, building every project with deep understanding and passion bringing out the essential of every project.</p>
-                </div>
+            <h1 className="font-semibold lg:text-xl text-start">Languages</h1>
+            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+              We use up-to-date Programming languages and libraries to implement
+              our works.
+            </p>
+          </div>
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+            <div className="p-4 text-3xl text-[#580491] rounded-full">
+              <HiOutlineAcademicCap />
             </div>
+            <h1 className="font-semibold lg:text-xl text-start">Education</h1>
+            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+              Training a generation of tech nerds, bringing out the potential of
+              our generation.
+            </p>
+          </div>
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+            <div className="p-4 text-3xl text-[#580491] rounded-full ">
+              <HiOutlineBriefcase className="" />
+            </div>
+            <h1 className="font-semibold lg:text-xl text-start ">Projects</h1>
+            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+              We accept and take every challenge, building every project with
+              deep understanding and passion bringing out the essential of every
+              project.
+            </p>
+          </div>
+        </div>
         <div className="flex flex-col items-center gap-3 py-5">
           <h1 className="text-3xl lg:text-4xl">Tech We Use</h1>
           <p className="md:px-72 max-md:text-sm text-center px-4">
             To create a world of understanding technology, build businesses with
             modern and advanced tech and improve the efficiency of work done.
           </p>
+          <TechStackSlider />
+        </div>
+        <div className="flex flex-col items-center gap-3 py-5">
+          <h1 className="text-3xl lg:text-4xl">Some of Our Work</h1>
+          <p className="md:px-72 max-md:text-sm text-center px-4">
+          We take pride in delivering exceptional projects that showcase innovation, creativity, and quality. Below are some of the key highlights from our portfolio:
+          </p>
+          <TechStackSlider />
         </div>
       </div>
       <div className="bg-purple px-4 lg:px-24 py-16">
