@@ -1,11 +1,9 @@
 import React from "react";
 import Hero from "../assets/hero.png";
 import { Link } from "react-router-dom";
-import { FaCode } from "react-icons/fa6";
-import { LuGraduationCap } from "react-icons/lu";
-import { IoBriefcaseOutline } from "react-icons/io5";
 import { BsArrowUpRight } from "react-icons/bs";
 import { PiDownloadSimple } from "react-icons/pi";
+import { HiOutlineCode, HiOutlineAcademicCap, HiOutlineBriefcase } from "react-icons/hi";
 import { head } from "../constants";
 import FramerMotionText from "../components/FramerMotionText";
 import AnimatedImages from "../components/AnimatedImages";
@@ -48,49 +46,29 @@ const Home = () => {
         </div>
       </div>
       <div className="py-16">
-        <div className="flex flex-col items-center gap-3">
-          <h1 className="text-3xl lg:text-4xl">What We Do</h1>
-          <p className="px-4 max-md:text-sm lg:px-60 text-center">
-            We are dynamic tech start-up focused on turning ideas into
-            ground-breaking solutions. By leveraging advance technology and
-            innovative software development, we design, create products and
-            services that solve an address real world challenges, empower
-            businesses, fuel growth and derive results.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4 lg:gap-10 py-16 lg:px-24 px-4">
-          <div className="flex flex-col gap-2 items-center">
-            <div className="p-4 text-3xl text-white bg-gradient-to-b from-pink to-purple rounded-full">
-              <FaCode />
+            <div className="flex flex-col items-center gap-3">
+                <h1 className="text-3xl lg:text-4xl">What We Do</h1>
+                <p className="px-4 max-md:text-sm lg:px-60 text-center">We are dynamic tech start-up focused on turning ideas into ground-breaking solutions. By leveraging advance technology and innovative software development, we design, create products and services that solve an address real world challenges, empower businesses, fuel growth and derive results.</p>
             </div>
-            <h1 className="font-semibold lg:text-xl">Languages</h1>
-            <p className="text-center max-md:text-sm">
-              We use up-to-date Programming languages and libaries to implement
-              our works.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2 items-center">
-            <div className="p-4 text-3xl text-white bg-gradient-to-b from-pink to-purple rounded-full">
-              <LuGraduationCap />
+            <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-start gap-4 lg:gap-10 py-16 lg:px-24 px-4">
+                <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px]">
+                    <div className="p-4 text-3xl text-[#580491] rounded-full"><HiOutlineCode />
+                    </div>
+                    <h1 className="font-semibold lg:text-xl text-start">Languages</h1>
+                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">We use up-to-date Programming languages and libraries to implement our works.</p>
+                </div>
+                <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+                    <div className="p-4 text-3xl text-[#580491] rounded-full"><HiOutlineAcademicCap /></div>
+                    <h1 className="font-semibold lg:text-xl text-start">Education</h1>
+                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">Training a generation of tech nerds, bringing out the potential of our generation.</p>
+                </div>
+                <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+                    <div className="p-4 text-3xl text-[#580491] rounded-full ">
+                    <HiOutlineBriefcase className=''/></div>
+                    <h1 className="font-semibold lg:text-xl text-start ">Projects</h1>
+                    <p className=" max-md:text-sm text-start w-[350px] h-[88px]">We accept and take every challenge, building every project with deep understanding and passion bringing out the essential of every project.</p>
+                </div>
             </div>
-            <h1 className="font-semibold lg:text-xl">Education</h1>
-            <p className="text-center max-md:text-sm">
-              Training a generation of tech nerds, bringing out the pontential
-              of our generation.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2 items-center">
-            <div className="p-4 text-3xl text-white bg-gradient-to-b from-pink to-purple rounded-full">
-              <IoBriefcaseOutline />
-            </div>
-            <h1 className="font-semibold lg:text-xl">Projects</h1>
-            <p className="text-center max-md:text-sm">
-              We accept and take every challenge, building every porject with
-              deep understanding and passion bringing out the essential of every
-              project.
-            </p>
-          </div>
-        </div>
         <div className="flex flex-col items-center gap-3 py-5">
           <h1 className="text-3xl lg:text-4xl">Tech We Use</h1>
           <p className="md:px-72 max-md:text-sm text-center px-4">
