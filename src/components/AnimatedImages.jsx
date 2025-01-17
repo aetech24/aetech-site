@@ -43,7 +43,7 @@ const AnimatedImages = () => {
             x: -300, // Exit to left
             transition: { duration: 0.5 },
           }}
-          className="w-full h-[500px] object-contain"
+          className="w-full h-[450px] object-contain"
         />
       </AnimatePresence>
     </div>
