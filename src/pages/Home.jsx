@@ -16,12 +16,12 @@ import ProjectCard from "../components/ProjectCard";
 
 const Home = () => {
   return (
-    <div className="w-full">
-      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient">
+    <div className="w-full scrollbar-hide">
+      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient ">
         <div className="w-full flex justify-between items-center">
           <div className="w-full lg:w-1/2 max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 px-4">
             <FramerMotionText />
-            <p className="text-sm md:text-lg lg:text-xl">
+            <p className="text-sm md:text-lg">
               To create a world of understanding technology, build businesses
               with modern and advanced tech, and improve the efficiency of work
               done.
@@ -41,13 +41,13 @@ const Home = () => {
                   to="/contact"
                   className="py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2"
                 >
-                  Requirement
+                  Enquiry
                   <PiDownloadSimple />
                 </Link>
               </div>
             </div>
           </div>
-          <div className="w-1/2 h-full max-md:hidden">
+          <div className="w-1/2 h-full max-md:hidden scrollbar-hide">
             <AnimatedImages />
           </div>
         </div>
@@ -63,33 +63,33 @@ const Home = () => {
             businesses, fuel growth and derive results.
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-start gap-4 lg:gap-10 py-16 lg:px-24 px-4">
-          <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 py-16 lg:px-24 px-4">
+          <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px]">
             <div className="p-4 text-3xl text-[#580491] rounded-full">
               <HiOutlineCode />
             </div>
             <h1 className="font-semibold lg:text-xl text-start">Languages</h1>
-            <p className=" max-md:text-sm text-start h-[88px]">
+            <p className=" max-md:text-sm text-start">
               We use up-to-date Programming languages and libraries to implement
               our works.
             </p>
           </div>
-          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px] items-start">
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] items-start">
             <div className="p-4 text-3xl text-[#580491] rounded-full">
               <HiOutlineAcademicCap />
             </div>
             <h1 className="font-semibold lg:text-xl text-start">Education</h1>
-            <p className=" max-md:text-sm text-start h-[88px]">
+            <p className=" max-md:text-sm text-start">
               Training a generation of tech nerds, bringing out the potential of
               our generation.
             </p>
           </div>
-          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px] items-start">
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] items-start">
             <div className="p-4 text-3xl text-[#580491] rounded-full ">
               <HiOutlineBriefcase className="" />
             </div>
             <h1 className="font-semibold lg:text-xl text-start ">Projects</h1>
-            <p className=" max-md:text-sm text-start h-[88px]">
+            <p className=" max-md:text-sm text-start">
               We accept and take every challenge, building every project with
               deep understanding and passion bringing out the essential of every
               project.

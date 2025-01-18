@@ -44,6 +44,7 @@ const TechStackSlider = () => {
         }}
         pagination={{
           clickable: true,
+          el: ".custom-pagination", // Specify the custom pagination container
           bulletActiveClass: "swiper-pagination-bullet-active bg-purple",
         }}
         breakpoints={{
@@ -75,6 +76,9 @@ const TechStackSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* Pagination Container */}
+      <div className="custom-pagination flex justify-center mt-4"></div>
     </div>
   );
 };
