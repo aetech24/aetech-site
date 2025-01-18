@@ -44,8 +44,8 @@ const Service = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 px-4 py-8 lg:py-20'>
         {services.map((item, id) => (
           <div
-            key={id}
-            className='px-4 py-6 border-[1px] border-[#232323] transition-all duration-200 ease-in-out delay-200 hover:border-none hover:bg-[#ff42b002] hover:bg-opacity-5 hover:shadow-md hover:duration-200 rounded-[10px] flex flex-col gap-4 cursor-pointer'
+          key={id}
+            className='px-4 py-6 border-[1px] border-[#232323] transition-all duration-300 ease-linear delay-200 hover:bg-[#ff42b002] hover:bg-opacity-5 hover:shadow-md hover:border-transparent hover:duration-500 rounded-[10px] flex flex-col gap-4 cursor-pointer'
           >
             <div className='p-2 text-4xl rounded-xl bg-pink text-white w-fit'>
               {item.icon}

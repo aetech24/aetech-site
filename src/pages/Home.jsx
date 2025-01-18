@@ -122,7 +122,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="bg-purple px-4 lg:px-24 py-16">
+      {/* <div className="bg-purple px-4 lg:px-24 py-16">
         <div className="flex flex-col items-center gap-3 py-5 text-white">
           <h1 className="text-3xl lg:text-4xl">Meet Our Team</h1>
           <p className="lg:px-72 max-md:text-sm text-center">
@@ -152,7 +152,7 @@ const Home = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
       <ScrollToTop />
     </div>
   );

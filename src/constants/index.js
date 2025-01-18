@@ -5,6 +5,7 @@ import Obed from '../assets/team/Obed.jpg'
 import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
 import Gabriel from '../assets/team/gabriel.jpg'
+import Ephraim from '../assets/team/ephraim.jpg'
 import Aziz from '../assets/team/Aziz.jpg'
 import Millicent from '../assets/team/millicent.jpg'
 import Temiperi from '../assets/projects/temiperi.png'
@@ -16,6 +17,54 @@ import Malawi3 from '../assets/projects/malawi3.jpg'
 import Nii from '../assets/projects/nii.png'
 
 export const team = [
+    {
+        image: Ephraim, 
+        name: "Ephraim Tetteh Apetorgbor", 
+        role: "CEO of aeTech Digital Hub",
+        bio: "A software developer, data scientist amd machine learning developer. I am a dedicated, passionate committed multi-programmer with a deep passion for coding and security. My journey in the world of technology has been an exciting adventure, and I'm always up for the challenge of creating innovative solutions. I firmly believe believe in my skills, constantly seeking to learn grow, and contribute to the tech community while staying true to my faith-inspired principles.",
+        expertise: [
+            "Quality Assurance",
+            "Test Automation",
+            "CI/CD Implementation",
+            "Performance Testing",
+            "API Testing"
+        ],
+        experience: [
+            {
+                position: "CEO",
+                company: "aeTech Digital Hub",
+                duration: "2024 - Present",
+                description: "Lead a team of 5 QA engineers, implemented automated testing frameworks that reduced testing time by 60%"
+            },
+            {
+                position: "Software Developer",
+                company: "Adiphraim - Freelance",
+                duration: "2024 - 2024",
+                description: "Developed and maintained test suites for web and mobile applications"
+            },
+            {
+                position: "Software Developer",
+                company: "aes - Freelance",
+                duration: "2022 - 2024",
+                description: "Developed and maintained test suites for web and mobile applications"
+            }
+        ],
+        education: {
+            degree: "Software Development",
+            institution: "University of Ghana",
+            year: "2020 - 2024"
+        },
+        certifications: [
+            "AWS Certified Developer",
+            "ISTQB Advanced Level Test Automation Engineer",
+            "Selenium Certified Professional"
+        ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
     {
         image: Samuella, 
         name: "Samuella Langosh", 
@@ -403,7 +452,7 @@ export const team = [
 ]
 
 export const head =[
-    {image: Samuella, name: "Ephraim ", role: "CEO", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
+    {image: Ephraim, name: "Ephraim Tetteh Apetorgbor", role: "CEO", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
     {image: Samuella, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
     {image: Godwin, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
 ]
