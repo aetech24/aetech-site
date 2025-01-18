@@ -1,6 +1,6 @@
 import Project from '../assets/project.png'
 import Samuella from '../assets/team/Samuella.jpg'
-import Stedan from '../assets/team/Stedan.jpg'
+import Stedan from '../assets/team/Stedan.png'
 import Obed from '../assets/team/Obed.jpg'
 import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
