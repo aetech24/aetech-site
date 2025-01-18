@@ -4,7 +4,10 @@ import Stedan from '../assets/team/Stedan.png'
 import Obed from '../assets/team/Obed.jpg'
 import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
+import Daniel from '../assets/team/img3.jpg'
 import Gabriel from '../assets/team/gabriel.jpg'
+import Derrick from '../assets/team/derrick.jpg'
+import Yaw from '../assets/team/yaw.jpg'
 import Ephraim from '../assets/team/ephraim.jpg'
 import Aziz from '../assets/team/Aziz.jpg'
 import Millicent from '../assets/team/millicent.jpg'
@@ -14,7 +17,10 @@ import Temiperi3 from '../assets/projects/temiperi3.jpg'
 import Malawi from '../assets/projects/malawi.png'
 import Malawi2 from '../assets/projects/malawi2.jpg'
 import Malawi3 from '../assets/projects/malawi3.jpg'
+import Nii2 from '../assets/projects/nii2.jpg'
+import Nii3 from '../assets/projects/nii3.jpg'
 import Nii from '../assets/projects/nii.png'
+import Cepta from '../assets/projects/cepta.jpg'
 
 export const team = [
     {
@@ -148,7 +154,49 @@ export const team = [
         }
     },
     {
-        image: Obed, 
+        image: Godwin, 
+        name: "Godwin Francis Sefa", 
+        role: "Finance Officer",
+        bio: "Detailed oreinted accounting professional witth two years of experience in accounts and audit firm, focusing on financial statement preparation, account reconcilation and budget management. Skilled in ensuring compliance with accounting standards and streamlining reporting processes to improve efficiency.",
+        expertise: [
+            "Budget management and forecasting",
+            "Financial Data Analysis",
+            "Financial Statement Preparation",
+            "Tax Preparation and Filing",
+            "Account Reconcilation"
+        ],
+        experience: [
+            {
+                position: "Finance Officer",
+                company: "Bargains Center Limited",
+                duration: "2023 - 2024",
+                description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
+            },
+            {
+                position: "Audit Associate",
+                company: "SNG Pedabo Associates",
+                duration: "2022 - 2024",
+                description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
+            },
+        ],
+        education: {
+            degree: "B.Sc. Business Adminstration",
+            institution: "Kwame Nkrumah University of Science and Technology",
+            year: "2018 - 2022"
+        },
+        certifications: [
+            "ALX Financial Analyst Program",
+            "KPMG virtual Experience in Audit and Assurance",
+            "PwC Virtual Experience Program in Digital Assurance"
+        ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
+    {
+        image: Derrick, 
         name: "Boateng Derrick", 
         role: "Graphic designer",
         bio: "Relevant Coursework: Calculus I, Programming I(C++) & II (Java, Python, C#, PHP, JavaScript), Data Structures & Algorithms, Web Technologies & Development, Advanced Web Technologies, Software Engineering I, Microsoft Office Productivity Tools (Word, Excel, PowerPoint), UI/UX Designing and Graphic Designing.",
@@ -263,7 +311,7 @@ export const team = [
         }
     },
     {
-        image: Ken, 
+        image: Yaw, 
         name: "Dickson Daniel Peprah", 
         role: "Software Engineer",
         bio: "A highly skilled full-stack web developer with a strong focus on frontend technologies. Proficient in HTML, CSS, JavaScript, React, TailwindCSS, Next.js, TypeScript, and more. Adept at building highly optimized web applications, with a keen eye for detail and a commitment to prioritizing client and employer needs. Excellent communicator with the ability to quickly adapt to new environments and technologies.",
@@ -368,16 +416,14 @@ export const team = [
         }
     },
     {
-        image: Godwin, 
-        name: "Godwin Francis Sefa", 
-        role: "Finance Officer",
-        bio: "Detailed oreinted accounting professional witth two years of experience in accounts and audit firm, focusing on financial statement preparation, account reconcilation and budget management. Skilled in ensuring compliance with accounting standards and streamlining reporting processes to improve efficiency.",
+        image: Ken, 
+        name: "Kenneth Ashartey", 
+        role: "UI/UX Designer",
+        bio: "A UI/UX Designer with over two years of experience looking to build impressive digital products. Creative problem solver with a passion for innovation and a deep understanding of design principles. Skilled in creating visually stunning interfaces and optimizing user experiences.",
         expertise: [
-            "Budget management and forecasting",
-            "Financial Data Analysis",
-            "Financial Statement Preparation",
-            "Tax Preparation and Filing",
-            "Account Reconcilation"
+            "UI/UX Design",
+            "User Centric Design",
+            "Good communication skills",
         ],
         experience: [
             {
@@ -410,32 +456,28 @@ export const team = [
         }
     },
     {
-        image: Ken, 
-        name: "Kenneth Ashartey", 
+        image: Daniel, 
+        name: "Daniel Aghedo", 
         role: "UI/UX Designer",
-        bio: "A UI/UX Designer with over two years of experience looking to build impressive digital products. Creative problem solver with a passion for innovation and a deep understanding of design principles. Skilled in creating visually stunning interfaces and optimizing user experiences.",
+        bio: "Passionat entry-level UI/UX designer with one year of experience working on community-driven projects. Skilled in user-centered design, wireframing, prototyping, and usability testing, with a strong foundation in Figma. Eager to bring my creativity, problem-solving abilities, and design skills to a team where I can contribute and continue learning.",
         expertise: [
             "UI/UX Design",
             "User Centric Design",
             "Good communication skills",
+            "Proficient in Figma and Framer",  
+            "Visual design",  
         ],
         experience: [
             {
-                position: "Finance Officer",
-                company: "Bargains Center Limited",
-                duration: "2023 - 2024",
-                description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
-            },
-            {
-                position: "Audit Associate",
-                company: "SNG Pedabo Associates",
-                duration: "2022 - 2024",
-                description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
-            },
+                position: "UI/UX Designer",
+                company: "Freelance and community projects",
+                duration: "2023 - present",
+                description: "Collaborated with members of a desihn community to complete various design tasks, including user research, crafting wireframes, and interactive prototypes."
+            }
         ],
         education: {
-            degree: "B.Sc. Business Adminstration",
-            institution: "Kwame Nkrumah University of Science and Technology",
+            degree: "B.Sc. Library and Information Science",
+            institution: "University of Benin",
             year: "2018 - 2022"
         },
         certifications: [
@@ -476,7 +518,7 @@ export const work = [
     {
         images: [Temiperi, Temiperi2, Temiperi3], 
         title: "Temiperi Enterprise", 
-        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+        description: "Temiperi Enterprise specializes in the wholesale and retail of drinks. This software is designed to track progress, ensuring smooth operations and efficient management."
     },
     {
         images: [Malawi, Malawi2, Malawi3], 
@@ -484,13 +526,13 @@ export const work = [
         description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
     },
     {
-        images: [Nii, Temiperi, Malawi], 
+        images: [Nii, Nii2, Nii3], 
         title: "Nii Kwei Ministry", 
-        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+        description: "Nii Kwei Ministry is dedicated to promoting gospel music and supporting spiritual growth. It offers church goods like shirts, hoodies, Bibles, and more, creating a space for faith expression and community building."
     },
     {
-        images: [Nii, Temiperi, Malawi], 
-        title: "Nii Kwei Ministry", 
+        images: [Cepta, Cepta, Cepta], 
+        title: "Cepta", 
         description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
     },
 ]

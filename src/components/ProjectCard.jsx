@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
       </Swiper>
       <div className='px-4 py-1 flex flex-col gap-2'>
         <h1 className='text-xl lg:text-2xl font-medium'>{project.title}</h1>
-        <p className='max-md:text-sm'>{project.description}</p>
+        <p className='text-sm'>{project.description}</p>
         <button className='w-fit hover:underline hover:text-purple duration-300 ease-linear max-md:text-sm'>
           Read more 
         </button>
