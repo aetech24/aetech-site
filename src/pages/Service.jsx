@@ -110,7 +110,7 @@ const Service = () => {
           <img
             src={WebDevImage}
             alt='ReadyToWork'
-            className='lg:w-[580px] w-full lg:h-[450.1px] h-auto object-cover rounded-2xl'
+            className='lg:w-[580px] w-full lg:h-[450.1px] h-auto object-cover rounded-2xl max-sm:hidden '
           />
         </div>
       </div>
