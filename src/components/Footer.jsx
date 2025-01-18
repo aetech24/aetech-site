@@ -58,16 +58,16 @@ const Footer = () => {
             </Link>
           </div>
           <div className='flex items-center gap-4 text-3xl max-md:pt-6'>
-            <Link to='https://www.linkedin.com/company/aetech-ghana/'>
+            <Link to='https://www.linkedin.com/company/aetech-digital-hub/' target='_blank'>
               <FaLinkedin className='hover:text-purple duration-300 ease-linear cursor-pointer' />
             </Link>
-            <Link to='https://twitter.com/aetechghana'>
+            <Link to='#' target='_blank'>
               <FaTwitter className='hover:text-purple duration-300 ease-linear cursor-pointer' />
             </Link>
-          <Link to='https://www.youtube.com/@aetechghana'>
+          <Link to='#' target='_blank'>
             <FaYoutube className='hover:text-purple duration-300 ease-linear cursor-pointer' />
           </Link>
-          <Link to='https://www.instagram.com/aetechghana/'>
+          <Link to='https://www.instagram.com/aetech_hub/' target='_blank'>
             <FaInstagramSquare className='hover:text-purple duration-300 ease-linear cursor-pointer' />
           </Link>
           </div>
