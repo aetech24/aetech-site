@@ -59,7 +59,7 @@ export const team = [
         education: {
             degree: "Software Development",
             institution: "University of Ghana",
-            year: "2020 - 2024"
+            // year: "2020 - 2024"
         },
         certifications: [
             "AWS Certified Developer",
@@ -101,7 +101,7 @@ export const team = [
         education: {
             degree: "B.Sc. Computer Science",
             institution: "University of Technology",
-            year: "2016"
+            // year: "2016"
         },
         certifications: [
             "AWS Certified Developer",
@@ -143,7 +143,7 @@ export const team = [
         education: {
             degree: "B.Sc. Software Engineering",
             institution: "Ghana Communication Technology University",
-            year: "2016"
+            // year: "2016"
         },
         certifications: [
             "Web building with WordPress"
@@ -183,7 +183,7 @@ export const team = [
         education: {
             degree: "B.Sc. Business Adminstration",
             institution: "Kwame Nkrumah University of Science and Technology",
-            year: "2018 - 2022"
+            // year: "2018 - 2022"
         },
         certifications: [
             "ALX Financial Analyst Program",
@@ -221,7 +221,7 @@ export const team = [
         education: {
             degree: "B.Sc. Information Technology",
             institution: "University of Ghana",
-            year: "2026"
+            // year: "2026"
         },
         certifications: [],
         social: {
@@ -252,7 +252,7 @@ export const team = [
         education: {
             degree: "Bsc. degree",
             institution: "University of Ghana.",
-            year: "2022-2026"
+            // year: "2022-2026"
         },
         certifications: [
             "Certification in Graphic Design",
@@ -288,7 +288,7 @@ export const team = [
         education: {
             degree: "MA International Affairs and Diplomacy",
             institution: "University of Ghana.",
-            year: "2023 - 2024"
+            // year: "2023 - 2024"
         },
         certifications: [
             ,
@@ -334,7 +334,7 @@ export const team = [
         education: {
             degree: "Master of Arts (M.A.) in International Affairs",
             institution: "University of Ghana",
-            year: "2023 - 2024"
+            // year: "2023 - 2024"
         },
         // certifications: [
         //     "AWS Certified Developer",
@@ -375,7 +375,7 @@ export const team = [
         education: {
             degree: "B.Sc. Information Technology.",
             institution: "University of Ghana",
-            year: "2016"
+            // year: "2016"
         },
         certifications: [
             "AWS Certified Developer",
@@ -407,7 +407,7 @@ export const team = [
         education: {
             degree: "B.Sc. Computer Engineering",
             institution: "Ghana Communication Technology University (GCTU)",
-            year: "2017 - 2021"
+            // year: "2017 - 2021"
         },
         certifications: [],
         social: {
@@ -439,7 +439,7 @@ export const team = [
         education: {
             degree: "B.Sc. Computer Science",
             institution: "University of Ghana",
-            year: "2023 - 2026"
+            // year: "2023 - 2026"
         },
         certifications: [
             "Social Justice Hackathon",
@@ -479,7 +479,7 @@ export const team = [
         education: {
             degree: "B.Sc. Business Adminstration",
             institution: "Kwame Nkrumah University of Science and Technology",
-            year: "2018 - 2022"
+            // year: "2018 - 2022"
         },
         certifications: [
             "ALX Financial Analyst Program",
@@ -515,7 +515,7 @@ export const team = [
         education: {
             degree: "B.Sc. Library and Information Science",
             institution: "University of Benin",
-            year: "2018 - 2022"
+            // year: "2018 - 2022"
         },
         certifications: [
             "ALX Financial Analyst Program",
