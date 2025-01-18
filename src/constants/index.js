@@ -4,6 +4,8 @@ import Stedan from '../assets/team/Stedan.jpg'
 import Obed from '../assets/team/Obed.jpg'
 import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
+import Gabriel from '../assets/team/gabriel.jpg'
+import Aziz from '../assets/team/aziz.jpg'
 import Millicent from '../assets/team/millicent.jpg'
 import Temiperi from '../assets/projects/temiperi.png'
 import Temiperi2 from '../assets/projects/temiperi2.jpg'
@@ -63,7 +65,7 @@ export const team = [
         bio: "A passionate engineer with over 3 years of experience in quality and highly optimized software development, with specializing in automated testing frameworks and continuous integration pipelines.",
         expertise: [
             "Database management",
-        "Frontend development",
+            "Frontend development",
             "CI/CD Implementation",
             "Performance Testing",
             "API Testing"
@@ -102,11 +104,13 @@ export const team = [
         role: "Graphic designer",
         bio: "Relevant Coursework: Calculus I, Programming I(C++) & II (Java, Python, C#, PHP, JavaScript), Data Structures & Algorithms, Web Technologies & Development, Advanced Web Technologies, Software Engineering I, Microsoft Office Productivity Tools (Word, Excel, PowerPoint), UI/UX Designing and Graphic Designing.",
         expertise: [
+            "UI/UX Designing",
+            "Graphic Designing",
+            "Database management",
+            "Frontend development",
+            "Video Editing",
+            "API Testing",
             "Quality Assurance",
-            "Test Automation",
-            "CI/CD Implementation",
-            "Performance Testing",
-            "API Testing"
         ],
         experience: [
             {
@@ -121,11 +125,7 @@ export const team = [
             institution: "University of Ghana",
             year: "2026"
         },
-        certifications: [
-            "AWS Certified Developer",
-            "ISTQB Advanced Level Test Automation Engineer",
-            "Selenium Certified Professional"
-        ],
+        certifications: [],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
             github: "https://github.com/rlangosh",
@@ -167,16 +167,16 @@ export const team = [
     },
     {
         image: Millicent, 
-        name: "Stedan Ampofo", 
-        role: "Software Developer",
-        bio: "I am a highly motivated individual who  strives to solve world problems with the skills I have acquired in software development.",
-        // expertise: [
-        //     "Quality Assurance",
-        //     "Test Automation",
-        //     "CI/CD Implementation",
-        //     "Performance Testing",
-        //     "API Testing"
-        // ],
+        name: "Millicent Ewurama Amoako", 
+        role: "Marketting and Brand Strategist",
+        bio: "A highly adaptable and goal-driven with strong verbal communication, interpersonal, and data management skills. I am a team-oreinted professional with excellent organizational and problem-solving abilities. I thrive in fast-paced environments and collaborate effectively with others to acheive goals efficiently and successfully.",
+        expertise: [
+            "Good verbal and communication skills",
+            "Proficient in Microsoft Word and PowerPoint",
+            "Proficient in data entry",
+            "Solid Understanding of social media platforms and engagement strategies",
+            "API Testing"
+        ],
         experience: [
             {
                 position: "Intern",
@@ -255,40 +255,104 @@ export const team = [
         }
     },
     {
-        image: Ken, 
-        name: "Robert Langosh", 
-        role: "Product Quality Engineer",
-        bio: "A passionate engineer with over 8 years of experience in quality assurance and product development. Specializing in automated testing frameworks and continuous integration pipelines.",
+        image: Aziz, 
+        name: "Yakubu Abdul Aziz", 
+        role: "Frontend Web Developer",
+        bio: "Highly motivated and results-driven professional with a proven track record in marketting and a passion for digital strategies. Seeking a challenging role in a dynamic company where I can leverage my skills to drive growth and contribution to the success of the organization.",
         expertise: [
-            "Quality Assurance",
-            "Test Automation",
-            "CI/CD Implementation",
-            "Performance Testing",
-            "API Testing"
+            "Frontend Development",
         ],
         experience: [
             {
-                position: "Senior QA Engineer",
-                company: "Tech Solutions Inc.",
-                duration: "2020-Present",
-                description: "Lead a team of 5 QA engineers, implemented automated testing frameworks that reduced testing time by 60%"
-            },
+                position: "Graduate Internship",
+                company: "Eastern Regional Hospital, Koforidua",
+                duration: "2021 - 2022",
+                description: "Provided technical support to employees, troubleshooting hardware and software issues."
+            }
+        ],
+        education: {
+            degree: "B.Sc. Computer Engineering",
+            institution: "Ghana Communication Technology University (GCTU)",
+            year: "2017 - 2021"
+        },
+        certifications: [],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
+    {
+        image: Gabriel, 
+        name: "Gabriel Kwame Addo Quainoo", 
+        role: "Frontend Engineer",
+        bio: "I am a motivated and enthusiastic professional full-stack software engineer for both web and mobile apps with a strong passion for developing scalable web and mobile applications and solving real-life problems through technology with a solid computer science and mathematics foundation. Committed to developing user friendly and scalable software solutions to enhance user experiences. Seeking opportunities to contribute to innovative projects and collaborate with talented teams.",
+        expertise: [
+            "Frontend Development",
+            "UI/UX Design",
+            "Database Management",
+            "API Integration",
+            "Mobile App Development"
+        ],
+        experience: [
             {
-                position: "QA Engineer",
-                company: "Digital Innovations Ltd",
-                duration: "2017-2020",
-                description: "Developed and maintained test suites for web and mobile applications"
+                position: "Intern",
+                company: "Ideation Axis",
+                duration: "2024 - 2024",
+                description: "Collaborated with a team to design and implement a user interface and user experience for a project platform."
             }
         ],
         education: {
             degree: "B.Sc. Computer Science",
-            institution: "University of Technology",
-            year: "2016"
+            institution: "University of Ghana",
+            year: "2023 - 2026"
         },
         certifications: [
-            "AWS Certified Developer",
-            "ISTQB Advanced Level Test Automation Engineer",
-            "Selenium Certified Professional"
+            "Social Justice Hackathon",
+            "Mini-Medi Hackathon",
+            "Software Development Bootcamp"
+        ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
+    {
+        image: Godwin, 
+        name: "Godwin Francis Sefa", 
+        role: "Finance Officer",
+        bio: "Detailed oreinted accounting professional witth two years of experience in accounts and audit firm, focusing on financial statement preparation, account reconcilation and budget management. Skilled in ensuring compliance with accounting standards and streamlining reporting processes to improve efficiency.",
+        expertise: [
+            "Budget management and forecasting",
+            "Financial Data Analysis",
+            "Financial Statement Preparation",
+            "Tax Preparation and Filing",
+            "Account Reconcilation"
+        ],
+        experience: [
+            {
+                position: "Finance Officer",
+                company: "Bargains Center Limited",
+                duration: "2023 - 2024",
+                description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
+            },
+            {
+                position: "Audit Associate",
+                company: "SNG Pedabo Associates",
+                duration: "2022 - 2024",
+                description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
+            },
+        ],
+        education: {
+            degree: "B.Sc. Business Adminstration",
+            institution: "Kwame Nkrumah University of Science and Technology",
+            year: "2018 - 2022"
+        },
+        certifications: [
+            "ALX Financial Analyst Program",
+            "KPMG virtual Experience in Audit and Assurance",
+            "PwC Virtual Experience Program in Digital Assurance"
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
@@ -298,39 +362,37 @@ export const team = [
     },
     {
         image: Ken, 
-        name: "Robert Langosh", 
-        role: "Product Quality Engineer",
-        bio: "A passionate engineer with over 8 years of experience in quality assurance and product development. Specializing in automated testing frameworks and continuous integration pipelines.",
+        name: "Kenneth Ashartey", 
+        role: "UI/UX Designer",
+        bio: "A UI/UX Designer with over two years of experience looking to build impressive digital products. Creative problem solver with a passion for innovation and a deep understanding of design principles. Skilled in creating visually stunning interfaces and optimizing user experiences.",
         expertise: [
-            "Quality Assurance",
-            "Test Automation",
-            "CI/CD Implementation",
-            "Performance Testing",
-            "API Testing"
+            "UI/UX Design",
+            "User Centric Design",
+            "Good communication skills",
         ],
         experience: [
             {
-                position: "Senior QA Engineer",
-                company: "Tech Solutions Inc.",
-                duration: "2020-Present",
-                description: "Lead a team of 5 QA engineers, implemented automated testing frameworks that reduced testing time by 60%"
+                position: "Finance Officer",
+                company: "Bargains Center Limited",
+                duration: "2023 - 2024",
+                description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
             },
             {
-                position: "QA Engineer",
-                company: "Digital Innovations Ltd",
-                duration: "2017-2020",
-                description: "Developed and maintained test suites for web and mobile applications"
-            }
+                position: "Audit Associate",
+                company: "SNG Pedabo Associates",
+                duration: "2022 - 2024",
+                description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
+            },
         ],
         education: {
-            degree: "B.Sc. Computer Science",
-            institution: "University of Technology",
-            year: "2016"
+            degree: "B.Sc. Business Adminstration",
+            institution: "Kwame Nkrumah University of Science and Technology",
+            year: "2018 - 2022"
         },
         certifications: [
-            "AWS Certified Developer",
-            "ISTQB Advanced Level Test Automation Engineer",
-            "Selenium Certified Professional"
+            "ALX Financial Analyst Program",
+            "KPMG virtual Experience in Audit and Assurance",
+            "PwC Virtual Experience Program in Digital Assurance"
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
@@ -341,7 +403,7 @@ export const team = [
 ]
 
 export const head =[
-    {image: Samuella, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
+    {image: Samuella, name: "Ephraim ", role: "CEO", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
     {image: Samuella, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
     {image: Godwin, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
 ]
