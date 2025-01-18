@@ -5,6 +5,13 @@ import Obed from '../assets/team/Obed.jpg'
 import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
 import Millicent from '../assets/team/millicent.jpg'
+import Temiperi from '../assets/projects/temiperi.png'
+import Temiperi2 from '../assets/projects/temiperi2.jpg'
+import Temiperi3 from '../assets/projects/temiperi3.jpg'
+import Malawi from '../assets/projects/malawi.png'
+import Malawi2 from '../assets/projects/malawi2.jpg'
+import Malawi3 from '../assets/projects/malawi3.jpg'
+import Nii from '../assets/projects/nii.png'
 
 export const team = [
     {
@@ -355,10 +362,26 @@ export const services = [
 ]
 
 export const work = [
-    {image: Project, title: "Project 1", description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."},
-    {image: Project, title: "Project 1", description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."},
-    {image: Project, title: "Project 1", description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."},
-    {image: Project, title: "Project 1", description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."},
+    {
+        images: [Temiperi, Temiperi2, Temiperi3], 
+        title: "Temiperi Enterprise", 
+        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+    },
+    {
+        images: [Malawi, Malawi2, Malawi3], 
+        title: "Malawi Village", 
+        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+    },
+    {
+        images: [Nii, Temiperi, Malawi], 
+        title: "Nii Kwei Ministry", 
+        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+    },
+    {
+        images: [Nii, Temiperi, Malawi], 
+        title: "Nii Kwei Ministry", 
+        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+    },
 ]
 
 export const pricing = [

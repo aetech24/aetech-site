@@ -31,7 +31,7 @@ const techStacks = [
 
 const TechStackSlider = () => {
   return (
-    <div className="w-full py-8 px-16">
+    <div className="w-full py-8 px-4 lg:px-16">
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={30}

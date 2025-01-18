@@ -17,9 +17,9 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg">
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
-                <div className="flex items-center flex-shrink-0">
+                <Link to="/" className="flex items-center flex-shrink-0">
                     <img src={logo} alt="" className='w-16 mr-1'/>
-                </div>
+                </Link>
                 <ul className="hidden lg:flex ml-14 space-x-12 font-medium text-lg">
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/">Home</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/about">About Us</Link></li>

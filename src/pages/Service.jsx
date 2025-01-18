@@ -19,24 +19,24 @@ const Service = () => {
   };
 
   return (
-    <div className=''>
-      <div className='lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient justify-between px-24'>
-        <div className='flex flex-col items-start w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px] flex-wrap'>
-          <h2 className='font-Montserrat font-normal text-[56px] leading-[52px] w-[444px] flex-wrap'>
+    <div className='w-full'>
+      <div className='lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient justify-between px-4 lg:px-24'>
+        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px]'>
+          <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] w-[444px] lg:flex-wrap max-md:text-center'>
             Our Services
           </h2>
-          <p className='w-[528px] flex-wrap'>
+          <p className='lg:w-[528px] flex-wrap'>
             We offer and solve problems across various fields of tech. Find
             below some of our services and advanced tech and improve the
             efficiency of work done.
           </p>
         </div>
-        <div>
+        <div >
           <img
             src={ServiceImage}
             alt='ServiceImage'
-            className='w-[580px] h-[450.1px] '
-          ></img>
+            className='w-[580px] h-[450.1px] max-md:hidden'
+            />
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-20 px-4 py-8 lg:py-20'>
@@ -84,9 +84,9 @@ const Service = () => {
         })}
       </div>
       {/* CTA */}
-      <div className='lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full px-24 bg-[#BA97D10D] justify-between'>
+      <div className='lg:h-[90vh] max-[340px]:h-[60vh] max-sm:h-[50vh] md:h-[80vh] flex items-center w-full px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
         <div className='flex flex-col items-start w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px] flex-wrap'>
-          <h2 className='font-Montserrat font-normal text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px]'>
+          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px]'>
             Ready to start your next project?
           </h2>
           <div className='flex items-center gap-6'>
@@ -113,7 +113,7 @@ const Service = () => {
           <img
             src={WebDevImage}
             alt='ReadyToWork'
-            className='w-[580px] h-[450.1px] '
+            className='w-[580px] h-[450.1px] max-md:hidden'
           ></img>
         </div>
       </div>

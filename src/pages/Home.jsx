@@ -8,10 +8,11 @@ import {
   HiOutlineAcademicCap,
   HiOutlineBriefcase,
 } from "react-icons/hi";
-import { head } from "../constants";
+import { head, work } from "../constants";
 import FramerMotionText from "../components/FramerMotionText";
 import AnimatedImages from "../components/AnimatedImages";
 import TechStackSlider from "../components/TechStackSlider";
+import ProjectCard from "../components/ProjectCard";
 
 const Home = () => {
   return (
@@ -63,32 +64,32 @@ const Home = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-start gap-4 lg:gap-10 py-16 lg:px-24 px-4">
-          <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px]">
+          <div className="flex flex-col items-start border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px]">
             <div className="p-4 text-3xl text-[#580491] rounded-full">
               <HiOutlineCode />
             </div>
             <h1 className="font-semibold lg:text-xl text-start">Languages</h1>
-            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+            <p className=" max-md:text-sm text-start h-[88px]">
               We use up-to-date Programming languages and libraries to implement
               our works.
             </p>
           </div>
-          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px] items-start">
             <div className="p-4 text-3xl text-[#580491] rounded-full">
               <HiOutlineAcademicCap />
             </div>
             <h1 className="font-semibold lg:text-xl text-start">Education</h1>
-            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+            <p className=" max-md:text-sm text-start h-[88px]">
               Training a generation of tech nerds, bringing out the potential of
               our generation.
             </p>
           </div>
-          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] w-[380px] h-[219px] items-start">
+          <div className="flex flex-col border-[1px] p-[15px] rounded-[10px] gap-[10px] h-[219px] items-start">
             <div className="p-4 text-3xl text-[#580491] rounded-full ">
               <HiOutlineBriefcase className="" />
             </div>
             <h1 className="font-semibold lg:text-xl text-start ">Projects</h1>
-            <p className=" max-md:text-sm text-start w-[350px] h-[88px]">
+            <p className=" max-md:text-sm text-start h-[88px]">
               We accept and take every challenge, building every project with
               deep understanding and passion bringing out the essential of every
               project.
@@ -108,7 +109,16 @@ const Home = () => {
           <p className="md:px-72 max-md:text-sm text-center px-4">
           We take pride in delivering exceptional projects that showcase innovation, creativity, and quality. Below are some of the key highlights from our portfolio:
           </p>
-          <TechStackSlider />
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 lg:px-24 py-8 lg:py-16'>
+            {work.slice(0, 3).map((item, id) => (
+              <ProjectCard key={id} project={item} />
+            ))}
+          </div>
+          <Link to="/work">
+            <button className="border border-purple py-2 text-purple text-xl font-semibold px-16 rounded-3xl hover:bg-gradient-to-r hover:from-pink hover:to-purple hover:text-white hover:scale-105 duration-500 ease-linear">
+              View All
+            </button>
+          </Link>
         </div>
       </div>
       <div className="bg-purple px-4 lg:px-24 py-16">
