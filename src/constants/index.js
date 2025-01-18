@@ -523,7 +523,7 @@ export const work = [
     {
         images: [Malawi, Malawi2, Malawi3], 
         title: "Malawi Village", 
-        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+        description: "Malawi Village offers fresh, tasty juices and a variety of bitter and sweet teas with excellent health benefits. Designed a responsive e-commerce platform for Malawi Village. The website includes an intuitive product catalog, secure payment options, and a user-friendly interface, promoting their healthy beverages and enhancing customer convenience."
     },
     {
         images: [Nii, Nii2, Nii3], 
@@ -532,8 +532,8 @@ export const work = [
     },
     {
         images: [Cepta, Cepta, Cepta], 
-        title: "Cepta", 
-        description: "We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done."
+        title: "Cepta IT", 
+        description: "Cepta IT specializes in providing high-quality laptops, gadgets, and accessories to meet diverse customer needs. Developed a responsive e-commerce platform for Cepta IT. The website features a dynamic product catalog, secure checkout, and an admin dashboard for inventory and order management, enhancing customer experience and boosting online sales."
     },
 ]
 
