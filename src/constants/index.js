@@ -10,6 +10,7 @@ import Derrick from '../assets/team/derrick.jpg'
 import Yaw from '../assets/team/yaw.jpg'
 import Ephraim from '../assets/team/ephraim.jpg'
 import Aziz from '../assets/team/Aziz.jpg'
+import Adwoa from '../assets/team/adwoa.jpg'
 import Millicent from '../assets/team/millicent.jpg'
 import Temiperi from '../assets/projects/temiperi.png'
 import Temiperi2 from '../assets/projects/temiperi2.jpg'
@@ -255,6 +256,42 @@ export const team = [
         },
         certifications: [
             "Certification in Graphic Design",
+        ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
+    {
+        image: Adwoa, 
+        name: "Adwoa Serwaa Djan", 
+        role: "PRO and Marketer",
+        bio: "Dedicated to pursuing a diplomatic career with the ultimate aim to serving as an ambassador, fostering global cooperation, and addressing international challenges through diplomatic channels.",
+        expertise: [
+            "Solid understanding of social media platforms.",
+        ],
+        experience: [
+            {
+                position: "Intern",
+                company: "Spain Ghana Chamber of Commerce",
+                duration: "March 2024 - April 2024",
+                description: "Supported administrative tasks including maintaining records, handling correspondence, and managing schedules."
+            },
+            {
+                position: "Assistant Project Manager",
+                company: "Association of Africa Universities",
+                duration: "March 2024 - April 2024",
+                description: "Helped to organize the Moodle LMS Workshop in Ghana."
+            },
+        ],
+        education: {
+            degree: "MA International Affairs and Diplomacy",
+            institution: "University of Ghana.",
+            year: "2023 - 2024"
+        },
+        certifications: [
+            ,
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
