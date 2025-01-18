@@ -3,8 +3,9 @@ import { work } from "../constants";
 import ProjectCard from "../components/ProjectCard";
 import workImg from '../assets/work.png'
 import { Link } from 'react-router-dom';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+// import { IoIosArrowDown } from 'react-icons/io';
 import { BsArrowUpRight } from 'react-icons/bs';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Work = () => {
   return (
@@ -50,6 +51,7 @@ const Work = () => {
           ))}
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 };

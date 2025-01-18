@@ -1,6 +1,7 @@
 import React from 'react'
 import { pricing } from '../constants'
 import Check from '../assets/check.png'
+import ScrollToTop from '../components/ScrollToTop';
 
 const Pricing = () => {
   return (
@@ -32,6 +33,7 @@ const Pricing = () => {
             })
           }
         </div>
+        <ScrollToTop />
     </div>
   )
 }

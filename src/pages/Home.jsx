@@ -13,6 +13,7 @@ import FramerMotionText from "../components/FramerMotionText";
 import AnimatedImages from "../components/AnimatedImages";
 import TechStackSlider from "../components/TechStackSlider";
 import ProjectCard from "../components/ProjectCard";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -152,6 +153,7 @@ const Home = () => {
           })}
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 };

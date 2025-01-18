@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Vision from '../assets/project.png'
 import { team } from '../constants';
 import TeamMember from '../components/TeamMember';
+import ScrollToTop from '../components/ScrollToTop';
 
 const About = () => {
   const [selectedMember, setSelectedMember] = useState(null);
@@ -79,6 +80,7 @@ const About = () => {
             onClose={handleCloseModal}
           />
         )}
+        <ScrollToTop />
     </div>
   )
 }

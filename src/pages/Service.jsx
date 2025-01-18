@@ -6,6 +6,8 @@ import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { BsArrowUpRight } from 'react-icons/bs';
 import ServiceImage from '../assets/ServiceImg.jpg';
 import WebDevImage from '../assets/WebDevImage.jpg';
+import ScrollToTop from '../components/ScrollToTop';
+
 const Service = () => {
 
     const [expandedItems, setExpandedItems] = useState([]);
@@ -112,6 +114,7 @@ const Service = () => {
           ></img>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 };
