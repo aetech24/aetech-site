@@ -42,41 +42,41 @@ const Service = () => {
       {/* Services Section */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-20 px-4 py-8 lg:py-20'>
         {services.map((item, id) => (
-            <div
-              key={id}
+          <div
+            key={id}
             className='px-4 py-6 border-[1px] border-[#232323] transition-all duration-200 ease-in-out delay-200 hover:border-none hover:bg-pink hover:bg-opacity-5 hover:shadow-md hover:duration-200 rounded-2xl flex flex-col gap-4 cursor-pointer'
-            >
-              <div className='p-2 text-4xl rounded-xl bg-pink text-white w-fit'>
+          >
+            <div className='p-2 text-4xl rounded-xl bg-pink text-white w-fit'>
               {item.icon}
-              </div>
-              <h1 className='text-xl font-medium'>{item.title}</h1>
-              <ol className='list-none space-y-2'>
-                {item.skills
-                  .slice(0, expandedItems[id] ? undefined : 2)
-                  .map((skill, skillId) => (
-                  <li key={skillId} className='text-sm flex items-start gap-2'>
-                      <span className='text-purple mt-1'>•</span>
-                      <span>{skill}</span>
-                    </li>
-                  ))}
-              </ol>
-              {item.skills.length > 2 && (
-                <button
-                  onClick={() => toggleExpand(id)}
-                  className='text-purple text-sm flex items-center gap-1 hover:text-pink transition-colors duration-300'
-                >
-                  {expandedItems[id] ? (
-                    <>
-                      Hide <IoIosArrowUp className='text-lg' />
-                    </>
-                  ) : (
-                    <>
-                      Read More <IoIosArrowDown className='text-lg' />
-                    </>
-                  )}
-                </button>
-              )}
             </div>
+            <h1 className='text-xl font-medium'>{item.title}</h1>
+            <ol className='list-none space-y-2'>
+              {item.skills
+                .slice(0, expandedItems[id] ? undefined : 2)
+                .map((skill, skillId) => (
+                  <li key={skillId} className='text-sm flex items-start gap-2'>
+                    <span className='text-purple mt-1'>•</span>
+                    <span>{skill}</span>
+                  </li>
+                ))}
+            </ol>
+            {item.skills.length > 2 && (
+              <button
+                onClick={() => toggleExpand(id)}
+                className='text-purple text-sm flex items-center gap-1 hover:text-pink transition-colors duration-300'
+              >
+                {expandedItems[id] ? (
+                  <>
+                    Hide <IoIosArrowUp className='text-lg' />
+                  </>
+                ) : (
+                  <>
+                    Read More <IoIosArrowDown className='text-lg' />
+                  </>
+                )}
+              </button>
+            )}
+          </div>
         ))}
       </div>
 
