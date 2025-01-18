@@ -46,11 +46,11 @@ const Footer = () => {
                 Our Work
               </p>
             </Link>
-            <Link to='/pricing'>
+            {/* <Link to='/pricing'>
               <p className='hover:text-purple duration-300 ease-linear'>
                 Pricing
               </p>
-            </Link>
+            </Link> */}
             <Link to='/contact'>
               <p className='hover:text-purple duration-300 ease-linear'>
                 Contact Us
