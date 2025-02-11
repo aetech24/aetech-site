@@ -120,11 +120,10 @@ export const team = [
         role: "Software engineer",
         bio: "A passionate engineer with over 3 years of experience in quality and highly optimized software development, with specializing in automated testing frameworks and continuous integration pipelines.",
         expertise: [
-            "Database management",
+            "UI/UX Design",
             "Frontend development",
-            "CI/CD Implementation",
-            "Performance Testing",
-            "API Testing"
+            "Team Leadership",
+            "Data Analysis and Design"
         ],
         experience: [
             {
@@ -134,8 +133,8 @@ export const team = [
                 description: "Lead a team of 5 QA engineers, implemented automated testing frameworks that reduced testing time by 60%"
             },
             {
-                position: "Frontend developer",
-                company: "Aetech Hub",
+                position: "Frontend developer || HoD of Web Development",
+                company: "Aetech Digital Hub",
                 duration: "2024 - present",
                 description: "Involved in the development of highly optimal frontend applications."
             }
@@ -146,7 +145,9 @@ export const team = [
             // year: "2016"
         },
         certifications: [
-            "Web building with WordPress"
+            "Web building with WordPress",
+            "Responsive Web Development",
+            "UI/UX Design Meta"
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
@@ -248,6 +249,12 @@ export const team = [
                 duration: "June 2019 - August 2019",
                 description: "Managed taxpayer data, performed data entry, and assisted in the preparation of tax returns."
             },
+            {
+                position: "Intern",
+                company: "Ghana Education Service",
+                duration: "",
+                description: "I worked as a graphic designer in the IT department."
+            },
         ],
         education: {
             degree: "Bsc. degree",
@@ -269,7 +276,12 @@ export const team = [
         role: "PRO and Marketer",
         bio: "Dedicated to pursuing a diplomatic career with the ultimate aim to serving as an ambassador, fostering global cooperation, and addressing international challenges through diplomatic channels.",
         expertise: [
-            "Solid understanding of social media platforms.",
+            "Project Management",
+            "Effective Communication",
+            "Collaboration & Teamwork",
+            "Virtual Assistance",
+            "Proficient with Ms Office",
+            "Social Media Management"
         ],
         experience: [
             {
@@ -291,7 +303,8 @@ export const team = [
             // year: "2023 - 2024"
         },
         certifications: [
-            ,
+            "ALX Virtual Assistant",
+            "AI Career Essentials",
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
@@ -309,7 +322,6 @@ export const team = [
             "Proficient in Microsoft Word and PowerPoint",
             "Proficient in data entry",
             "Solid Understanding of social media platforms and engagement strategies",
-            "API Testing"
         ],
         experience: [
             {
@@ -432,9 +444,21 @@ export const team = [
             {
                 position: "Intern",
                 company: "Ideation Axis",
-                duration: "2024 - 2024",
+                duration: "May, 2024 - June, 2024",
                 description: "Collaborated with a team to design and implement a user interface and user experience for a project platform."
-            }
+            },
+            {
+                position: "Freelancing",
+                company: "",
+                duration: "2024 - present",
+                description: ""
+            },
+            {
+                position: "Frontend Engineer",
+                company: "aeTech Digital Hub",
+                duration: "2024 - present",
+                description: "Collaborate on projects with the team of aeTech, to build scalable softwares for others."
+            },
         ],
         education: {
             degree: "B.Sc. Computer Science",
@@ -444,54 +468,55 @@ export const team = [
         certifications: [
             "Social Justice Hackathon",
             "Mini-Medi Hackathon",
-            "Software Development Bootcamp"
+            "Software Development Bootcamp",
+            "UI/UX Google Career Certificate"
         ],
         social: {
             linkedin: "https://linkedin.com/in/robert-langosh",
-            github: "https://github.com/rlangosh",
-            twitter: "https://twitter.com/rlangosh"
+            github: "https://github.com/Gabby-Tech1",
+            twitter: ""
         }
     },
-    {
-        image: Ken, 
-        name: "Kenneth Ashartey", 
-        role: "UI/UX Designer",
-        bio: "A UI/UX Designer with over two years of experience looking to build impressive digital products. Creative problem solver with a passion for innovation and a deep understanding of design principles. Skilled in creating visually stunning interfaces and optimizing user experiences.",
-        expertise: [
-            "UI/UX Design",
-            "User Centric Design",
-            "Good communication skills",
-        ],
-        experience: [
-            {
-                position: "Finance Officer",
-                company: "Bargains Center Limited",
-                duration: "2023 - 2024",
-                description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
-            },
-            {
-                position: "Audit Associate",
-                company: "SNG Pedabo Associates",
-                duration: "2022 - 2024",
-                description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
-            },
-        ],
-        education: {
-            degree: "B.Sc. Business Adminstration",
-            institution: "Kwame Nkrumah University of Science and Technology",
-            // year: "2018 - 2022"
-        },
-        certifications: [
-            "ALX Financial Analyst Program",
-            "KPMG virtual Experience in Audit and Assurance",
-            "PwC Virtual Experience Program in Digital Assurance"
-        ],
-        social: {
-            linkedin: "https://linkedin.com/in/robert-langosh",
-            github: "https://github.com/rlangosh",
-            twitter: "https://twitter.com/rlangosh"
-        }
-    },
+    // {
+    //     image: Ken, 
+    //     name: "Kenneth Ashartey", 
+    //     role: "UI/UX Designer",
+    //     bio: "A UI/UX Designer with over two years of experience looking to build impressive digital products. Creative problem solver with a passion for innovation and a deep understanding of design principles. Skilled in creating visually stunning interfaces and optimizing user experiences.",
+    //     expertise: [
+    //         "UI/UX Design",
+    //         "User Centric Design",
+    //         "Good communication skills",
+    //     ],
+    //     experience: [
+    //         {
+    //             position: "Finance Officer",
+    //             company: "Bargains Center Limited",
+    //             duration: "2023 - 2024",
+    //             description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
+    //         },
+    //         {
+    //             position: "Audit Associate",
+    //             company: "SNG Pedabo Associates",
+    //             duration: "2022 - 2024",
+    //             description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
+    //         },
+    //     ],
+    //     education: {
+    //         degree: "B.Sc. Business Adminstration",
+    //         institution: "Kwame Nkrumah University of Science and Technology",
+    //         // year: "2018 - 2022"
+    //     },
+    //     certifications: [
+    //         "ALX Financial Analyst Program",
+    //         "KPMG virtual Experience in Audit and Assurance",
+    //         "PwC Virtual Experience Program in Digital Assurance"
+    //     ],
+    //     social: {
+    //         linkedin: "https://linkedin.com/in/robert-langosh",
+    //         github: "https://github.com/rlangosh",
+    //         twitter: "https://twitter.com/rlangosh"
+    //     }
+    // },
     {
         image: Daniel, 
         name: "Daniel Aghedo", 
