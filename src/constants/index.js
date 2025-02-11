@@ -74,15 +74,15 @@ export const team = [
     },
     {
         image: Samuella, 
-        name: "Samuella Langosh", 
+        name: "Samuella A. M Arthur", 
         role: "General Manager",
         bio: "A passionate engineer with over 8 years of experience in quality assurance and product development. Specializing in automated testing frameworks and continuous integration pipelines.",
         expertise: [
-            "Quality Assurance",
-            "Test Automation",
-            "CI/CD Implementation",
-            "Performance Testing",
-            "API Testing"
+            // "Quality Assurance",
+            // "Test Automation",
+            // "CI/CD Implementation",
+            // "Performance Testing",
+            // "API Testing"
         ],
         experience: [
             {
@@ -557,8 +557,8 @@ export const team = [
 
 export const head =[
     {image: Ephraim, name: "Ephraim Tetteh Apetorgbor", role: "CEO", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
-    {image: Samuella, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
-    {image: Godwin, name: "Samuella Langosh", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
+    {image: Samuella, name: "Samuella A. M Arthur", role: "General Manager", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
+    {image: Godwin, name: "Godwin Sefa", role: "Accountant", testimonial: "AeTech is a top tech company that helps build softwares for bigger organizations."},
 ]
 
 export const services = [
